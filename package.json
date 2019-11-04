@@ -1,0 +1,24 @@
+{
+  "name": "cypress-typescript-docker-reports",
+  "version": "1.0.0",
+  "author": "Mahesh Tanneeru",
+  "description": "cypress-typescript-docker-reports",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "node cypress_runner.js"
+  },
+  "dependencies": {
+    "@cypress/webpack-preprocessor": "^4.1.0",
+    "cypress": "^3.6.0",
+    "ls": "^0.2.1",
+    "mocha": "^5.2.0",
+    "mochawesome": "^4.1.0",
+    "mochawesome-merge": "^2.0.1",
+    "rimraf": "^3.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.6.4",
+    "uuid": "^3.3.2",
+    "webpack": "^4.41.2",
+    "yargs": "^14.2.0"
+  }
+}

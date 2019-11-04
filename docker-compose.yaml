@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  cypress:
+    volumes:
+        - "./cypress/reports/:/cypress/cypress/reports/"
+    build:
+        context: .
+        dockerfile: DockerFile
+    command: >
+        bash -c '
+        npm run cypress:run
+        '

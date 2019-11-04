@@ -1,0 +1,15 @@
+{
+    "baseUrl": "https://tanneerumahesh.github.io/",
+    "viewportHeight": 800,
+    "viewportWidth": 1280,
+    "video": false,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "cypress/reports/mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+    },
+    "screenshotsFolder": "cypress/reports/mochawesome-report/assets"
+}
